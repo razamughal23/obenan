@@ -1,0 +1,105 @@
+export const styles = {
+
+  customerVoiceBox: {
+    paddingTop: "150px",
+    paddingBottom: "150px",
+    backgroundColor: "primary.main",
+    color: "primary.contrastText",
+  },
+  customerVoice: {
+    display: "flex",
+    justifyContent: "center",
+    margin: "auto",
+  },
+  videoHeadeing: {
+    display: "flex",
+    textAlign: "center",
+    paddingBottom: "50px",
+  },
+  videoSectios: {
+    display: "flex",
+    justifyContent: { sm: "flex-start", md: "center" },
+  },
+  Videos: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+  },
+  videoTitle: {
+    paddingTop: "30px",
+    paddingBottom: "10px",
+  },
+  videoDesc: { paddingBottom: { xs: "20px", md: "0px" } },
+  contributionMainBox: {
+    backgroundColor: "primary.light",
+    paddingTop: "150px",
+    paddingBottom: "150px",
+    backgroundImage: "url(../tree.webp) !important",
+    backgroundPosition: "center bottom 0px",
+    backgroundRepeat: "no-repeat",
+  },
+  contributionTitle: {
+    display: "flex",
+    justifyContent: "center",
+    paddingBottom: "40px",
+    textAlign: "center",
+  },
+  contributionDesc: {
+    display: "flex",
+    justifyContent: "center",
+    textAlign: "center",
+    paddingBottom: "40px",
+    margin: "auto",
+  },
+  contributionButton: {
+    display: "flex",
+    justifyContent: "center",
+    textAlign: "center",
+  },
+  Marquee: { marginBottom: "50px" },
+  blogMainBox: {
+    paddingTop: "150px",
+    paddingBottom: "150px",
+    backgroundColor: "primary.main",
+    color: "primary.contrastText",
+  },
+  blogHeading: { margin: "auto", paddingBottom: "100px" },
+  blogTitle: {
+    display: "flex",
+    alignItems: "baseline",
+    justifyContent: "space-around",
+  },
+  BusinessesMainBox: {
+    backgroundColor: "primary.main",
+    color: "primary.contrastText",
+    paddingTop: "220px",
+    paddingBottom: "80px",
+    textAlign: "center",
+    display: "flex",
+  },
+
+  BrandsMainBox: {
+    backgroundColor: "primary.contrastText",
+    color: "primary.main",
+    display: "flex",
+    flexDirection: "column",
+    paddingTop: "100px",
+    paddingBottom: "100px",
+    textAlign: "center",
+  },
+  brandMainGrid: { margin: "auto" },
+  BrandsTitle: { margin: "auto", paddingTop: "50px", paddingBottom: "45px" },
+  BrandsMarquee: {
+    height: 120,
+    width: 120,
+    marginLeft: "15px",
+    marginRight: "15px",
+    marginBottom: "5px",
+    marginTop: "5px",
+    borderRadius: 10,
+    "&:hover": {
+      boxShadow: 5,
+      zIndex: 5,
+    },
+  },
+};

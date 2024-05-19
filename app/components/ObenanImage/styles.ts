@@ -1,0 +1,53 @@
+export const styles = {
+  VideoStyle: {
+    height: "100%",
+    width: "100%",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  PlayIcon: {
+    height: 70,
+    width: 70,
+    color: "primary.main",
+  },
+  Videos: {
+    display: "flex",
+    flexDirection: "column",
+    textAlign: "flex-start",
+  },
+  VideoButton: {
+    cursor: "pointer",
+    height: 96,
+    width: 96,
+    position: "absolute",
+    zIndex: "1",
+    border: "none",
+    color: "primary.contrastText",
+    opacity: "0.7",
+    backgroundColor: "primary.contrastText",
+    borderRadius: "50px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    "&:hover": {
+      height: 100,
+      width: 100,
+    },
+  },
+  videoTitle: {
+    paddingTop: "30px",
+    paddingBottom: "10px",
+  },
+  BottomTitle: {
+    position: "absolute",
+    zIndex: "1",
+    height: 32,
+    width: "100%",
+    borderRadius: "0 0 35px 35px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    bottom: "0px",
+  },
+};
